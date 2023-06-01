@@ -47,4 +47,3 @@ class Scene:
             [shape.update(self.timer.delta_time) for shape in self.objects]
             [shape.render(self.screen) for shape in self.objects]
             pg.display.update()
-
